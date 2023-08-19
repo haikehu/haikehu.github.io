@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>电子证照查验平台</title>
+    <style>
+        /* 联系人信息 */
+        .more {
+            width: 100%;
+            height: 60px;
+            background-color: #bfbfbf;
+        }
+
+        /* 用户信息 */
+        .user {
+            width: 100%;
+            /*text-align: center;*/
+            display: flex;
+            justify-content:space-evenly;
+        }
+
+        .user > dev{
+            margin-top: 6%;
+        }
+
+        .show {
+
+        }
+
+        .showTitle {
+            display: flex;
+            justify-content: center;
+        }
+
+        .large {
+            width: 100%;
+            height: 25%;
+        }
+
+        .hr {
+            margin-top: 10px;
+            border: none;
+            height: 1px;
+            /* Set the hr color */
+            color: #333; /* old IE */
+            background-color: #d4d3d3; /* Modern Browsers */
+        }
+
+        .reset {
+            align-self: center;
+            font-size: 20px;
+        }
+
+        .checkTitle {
+
+        }
+
+        .checkSuccess {
+            color: #198c06;
+        }
+
+        .showTable {
+        }
+
+        .showDev {
+            width: 100%;
+            height: 50px;
+            border-bottom: 1px solid #e7e7e7;
+            margin-left: 5%;
+            display: flex;
+            line-height:50px;
+        }
+        .oneDev{
+            width: 40%;
+        }
+        .textDev{
+            font-weight:bold
+        }
+        .tableSpan {
+            /*float:left;*/
+            text-align: justify;
+            /*float:right*/
+        }
+
+    </style>
+</head>
+
+<body>
+
+<dev class="show">
+    <img src="./image/large.png" class="large">
+    <dev class="showTitle">
+        <dev class="reset">
+            <span class="checkTitle">
+                查验结果:
+           </span>
+            <span class="checkSuccess">
+                校验成功
+            </span>
+        </dev>
+    </dev>
+    <hr class="hr">
+    <dev>
+        <dev class="showTable">
+            <dev class="showDev">
+                <dev class="oneDev"><span  class="oneDev">证照类型代码</span></dev>
+                <dev><span class="tableSpan">11100000000013186G002</span></dev>
+            </dev>
+            <dev class="showDev">
+                <dev class="oneDev"><span>证照类型名称</span></dev>
+                <dev><span class="tableSpan">代理记账许可证书</span></dev>
+            </dev>
+            <dev class="showDev textDev">
+                <dev class="oneDev"><span>许可证书编号</span></dev>
+                <dev><span class="tableSpan">DLJZ36011320230017</span></dev>
+            </dev>
+            <dev class="showDev textDev">
+                <dev class="oneDev"><span>统一社会信用代码</span></dev>
+                <dev><span class="tableSpan">91360125MACG4DQM61</span></dev>
+            </dev>
+            <dev class="showDev">
+                <dev class="oneDev"><span>代理记账机构名称</span></dev>
+                <dev><span class="tableSpan">江西洪企财税服务有限公司</span></dev>
+            </dev>
+            <dev class="showDev">
+                <dev class="oneDev"><span>审批设立日期</span></dev>
+                <dev><span class="tableSpan">2023年04月26日</span></dev>
+            </dev>
+            <dev class="showDev">
+                <dev class="oneDev"><span>发证机关</span></dev>
+                <dev><span class="tableSpan">南昌市红谷滩区财政局</span></dev>
+            </dev>
+            <dev class="showDev">
+                <dev class="oneDev"><span>发证日期</span></dev>
+                <dev><span class="tableSpan">2023年04月26日</span></dev>
+            </dev>
+        </dev>
+    </dev>
+</dev>
+
+</body>
+
+</html>
